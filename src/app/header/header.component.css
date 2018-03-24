@@ -1,0 +1,16 @@
+.wrapper{
+  padding: 24px 0;
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  font-size: 21px;
+  padding: 16px;
+  text-decoration: none;
+  color: #333;
+}
+@media only screen and (max-width: 900px){
+  .wrapper{
+      display: none;
+  }
+}
