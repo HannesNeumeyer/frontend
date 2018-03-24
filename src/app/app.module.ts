@@ -22,6 +22,9 @@ import { BausteinListeComponent } from './text/baustein-liste/baustein-liste.com
 import { EinleitungWürdeComponent } from './text/einleitung-würde/einleitung-würde.component';
 import { FooterComponent } from './footer/footer.component';
 import { MobileMenuComponent } from './mobile-menu/mobile-menu.component';
+import { EinleitungBilderComponent } from './bilder/einleitung-bilder/einleitung-bilder.component';
+import { ImgBgimgComponent } from './bilder/img-bgimg/img-bgimg.component';
+import { ResponsiveImagesComponent } from './bilder/responsive-images/responsive-images.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { MobileMenuComponent } from './mobile-menu/mobile-menu.component';
     BausteinListeComponent,
     EinleitungWürdeComponent,
     FooterComponent,
-    MobileMenuComponent
+    MobileMenuComponent,
+    EinleitungBilderComponent,
+    ImgBgimgComponent,
+    ResponsiveImagesComponent
   ],
   imports: [
     BrowserModule,

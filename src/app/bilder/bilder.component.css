@@ -1,0 +1,24 @@
+.heading{
+  font-size: 100px;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 18px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  color: #444;
+  text-transform: uppercase;
+}
+@media (max-width: 600px){
+  .heading{
+    font-size: 60px;
+    padding: 40px 0 0 0;
+  }
+} 
+.wrap{
+  margin: 0 auto;
+}
+.image{
+  height: 100%;
+  width: 100%;
+  padding: 4%;
+}

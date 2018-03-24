@@ -23,6 +23,17 @@
   padding-left: 20px;
   text-align: justify;
 }
+.css{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  padding: 10px 0;
+  letter-spacing: 0px;
+  padding-left: 20px;
+  text-align: justify;
+}
 span{
   font-style: italic;
   padding-left: 7px;
@@ -51,6 +62,9 @@ span{
   .text{
     font-size: 16px;
   }
+  .css{
+    font-size: 16px;
+  }
   .wrap{
     width: 250px;
     height: 180px;
@@ -67,5 +81,8 @@ span{
   }
   .wrap{
     margin: 10px 0;
+  }
+  .text{
+    display: none;
   }
 } 
