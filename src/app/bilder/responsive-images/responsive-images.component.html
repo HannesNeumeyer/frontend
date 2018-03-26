@@ -1,3 +1,38 @@
 <p class="einleitung">
-    Responsive Images
+  Responsive Images
+</p>
+<p class="infotext">
+  Heutzutage gehen mehr Menschen mit ihrem Smartphone oder Tablet ins Internet als am PC. Ein Bild sollte deshalb auf allen Endgeräten optimal dargestellt werden. Dabei sollten vor allem 2 Dinge
+  beachtet werden:
+</p>
+<ul style="padding-left: 20px;">
+  <li class="list-li">Darstellung eines Bildes</li>
+  <p class="infotext">Ein Bild, welches auf einem großen Desktop Monitor gut aussieht, kann auf dem Smartphone schnell zu klein wirken. Geht dadurch der Fokus des Bildes verloren,
+                      sollte man das Bild dementsprechend zuschneiden und ab einer bestimmten Bildschirmgröße verwenden. Damit der Browser weiß, welches Bild bei welcher 
+                      Bildschirmgröße verwendet werden soll, muss der Code folgendermaßen angepasst werden:                        
   </p>
+  <div class="wrap">
+    <picture>
+      <source srcset="../../../assets/responsive-code3.JPG" media="(max-width: 500px)">
+      <source srcset="../../../assets/responsive-code2.JPG" media="(max-width: 800px)">
+      <img class="image" src="../../../assets/responsive-code.JPG" alt="Bild von responsive Image Code">
+    </picture>   
+  </div>
+  <li class="list-li">Dateigröße eines Bildes</li>
+  <p class="infotext">Je höher die Auflösung eines Bildes, umso größer ist normalerweise die Datei. Eine große Datei dauert auch länger, um sie zu downloaden. Bei einem leistungsfähigen 
+                      Rechner kein Problem, kann es bei einem Smartphone mit schlechter Internetverbindung durchaus mehrere Sekunden dauern, bis das Bild auf dem Bildschirm zu sehen ist.
+                      Das ist zum einen sehr ärgerlich für den Nutzer und zum anderen total unnötig, da auf dem Smartphone das gleiche Bild mit einer geringeren Auflösung genauso gut 
+                      aussehen würde. Um das zu verhindern, müsste man den Code folgendermaßen anpassen:                      
+  </p>
+  <div class="wrap">
+    <picture>
+      <img class="image" style="max-width: 900px" src="../../../assets/resp-code.JPG" alt="responsive image code">
+    </picture>   
+    <p class="infotext">Für den Entwickler ist noch wichtig zu wissen, dass falls das Bild mit der höheren Auflösung (im Beispiel 1920px) bereits in den Cache geladen wurde, das Bild mit
+                        der kleineren Auflösung (570px) dann nicht noch mal extra geladen wird, wenn man die Bildschirmgröße verkleinert.                   
+  </p>
+  </div>    
+</ul>
+
+
+

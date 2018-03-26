@@ -1,9 +1,55 @@
 .einleitung{
-  padding: 10px 0;
-  font-size: 24px;
+  padding: 20px 0 10px 0;
+  font-size: 25px;
   font-weight: 600;
   line-height: 1.6;
   letter-spacing: 2px;
   font-family: 'Lato', sans-serif;
   color: #333;
 }
+.infotext{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  word-spacing: 3px;
+}
+.list-li{
+  padding: 20px 0 10px 0px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+.wrap{
+  margin: 0 auto;
+}
+.image{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+}
+@media (max-width: 1200px){
+  .einleitung{
+    font-size: 21px;
+  }
+  .infotext{
+    font-size: 17px;
+  }
+  .list-li{
+    font-size: 19px;
+  }
+  .image{    
+    padding: 10px 0;
+  }
+} 
+@media (max-width: 600px){
+  .non{
+    display: none;
+  }
+} 
