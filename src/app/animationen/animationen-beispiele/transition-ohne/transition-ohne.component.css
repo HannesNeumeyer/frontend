@@ -1,0 +1,12 @@
+.wrap{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  width: 200px;
+  height: 200px;
+  background-color:  rgb(97, 124, 206);
+}
+.container:hover{
+  background-color: rgb(187, 110, 28);;
+}

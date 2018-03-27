@@ -10,8 +10,56 @@
   color: transparent;
   text-align: center;
 }
+.info{
+  padding: 30px 10px 20px 10px;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-family: 'Lato', sans-serif;
+  color: #444;
+  text-align: center;
+}
+
+.wrap{
+  display: flex;  
+  justify-content: center;
+}
+.wrap2{
+  display: flex; 
+  justify-content: center; 
+}
+
+.wrap3{
+  padding: 0 50px;
+}
+
+a{
+  text-decoration: none;
+  padding: 20px;
+  font-size: 21px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(187, 110, 28);
+}
+
 @media (max-width: 1200px){
   .einleitung{
     font-size: 23px;
   }
+  .info{
+    font-size: 20px;
+    padding: 15px 10px 10px 10px;
+  }
+  .wrap3{
+    padding: 0 20px;
+  }
+  a{
+    font-size: 18px;
+    padding: 20px 10px;
+  }
 } 
+@media (max-width: 610px){
+  .wrap2{
+    flex-direction: column;
+  }
+}

@@ -37,6 +37,8 @@ import { FullBgComponent } from './bilder/bilder-beispiele/full-bg/full-bg.compo
 import { ClippathComponent } from './bilder/bilder-beispiele/clippath/clippath.component';
 import { ColumnsComponent } from './bilder/bilder-beispiele/columns/columns.component';
 import { ProfilbilderComponent } from './bilder/bilder-beispiele/profilbilder/profilbilder.component';
+import { TransitionComponent } from './animationen/animationen-beispiele/transition/transition.component';
+import { TransitionOhneComponent } from './animationen/animationen-beispiele/transition-ohne/transition-ohne.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +70,9 @@ import { ProfilbilderComponent } from './bilder/bilder-beispiele/profilbilder/pr
     FullBgComponent,
     ClippathComponent,
     ColumnsComponent,
-    ProfilbilderComponent
+    ProfilbilderComponent,
+    TransitionComponent,
+    TransitionOhneComponent
   ],
   imports: [
     BrowserModule,
