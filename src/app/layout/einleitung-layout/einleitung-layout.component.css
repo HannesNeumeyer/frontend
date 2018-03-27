@@ -1,0 +1,35 @@
+.teasertext{
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+}
+.infotext{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  word-spacing: 3px;
+  padding: 10px 0;
+}
+@media (max-width: 1200px){
+  .teasertext{
+    font-size: 20px;
+  }
+  .infotext{
+    font-size: 17px;
+  }
+} 
+@media (max-width: 600px){
+  .teasertext{
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .infotext{
+    display: none;
+  }
+} 

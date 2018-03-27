@@ -16,20 +16,20 @@
       width: 70px;
       border-radius: 50%;
       position: fixed;
-      top: 20px;
-      right: 20px;
+      top: 2px;
+      right: 2px;
       color: #000;
       z-index: 2000;
       box-shadow: 0 10px 30px rgba(0,0,0,.2);
       text-align: center;
   }
   .bg{
-      height: 60px;
-      width: 60px;
+      height: 50px;
+      width: 50px;
       border-radius: 50%;
       position: fixed;
-      top: 25px;
-      right: 25px;
+      top: 6px;
+      right: 6px;
       background-image: radial-gradient(rgb(180, 108, 31), rgb(114, 63, 5));
       z-index: 1000;
       transition: transform .5s;
@@ -67,6 +67,7 @@
       background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
       background-size: 220%;
       transition: all .4s;
+      font-family: 'Lato', sans-serif;
   }
   @media only screen and (max-width: 550px){
       .link{

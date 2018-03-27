@@ -1,0 +1,24 @@
+.heading{
+  font-size: 100px;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 18px;
+  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  background-image: linear-gradient( to right,rgb(245, 147, 42), rgb(104, 57, 3));
+  -webkit-background-clip: text;
+  color: transparent;
+}
+@media (max-width: 600px){
+  .heading{
+    font-size: 60px;
+    padding: 55px 0 0 0;
+  }
+} 
+@media (max-width: 400px){
+  .heading{
+    font-size: 55px;
+    padding: 55px 0 0 0;
+  }
+} 

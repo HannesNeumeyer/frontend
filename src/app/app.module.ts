@@ -25,6 +25,13 @@ import { MobileMenuComponent } from './mobile-menu/mobile-menu.component';
 import { EinleitungBilderComponent } from './bilder/einleitung-bilder/einleitung-bilder.component';
 import { ImgBgimgComponent } from './bilder/img-bgimg/img-bgimg.component';
 import { ResponsiveImagesComponent } from './bilder/responsive-images/responsive-images.component';
+import { EinleitungLayoutComponent } from './layout/einleitung-layout/einleitung-layout.component';
+import { FlexboxComponent } from './layout/flexbox/flexbox.component';
+import { ResponsiveLayoutComponent } from './layout/responsive-layout/responsive-layout.component';
+import { FlatDesignComponent } from './layout/flat-design/flat-design.component';
+import { EinleitungAnimationenComponent } from './animationen/einleitung-animationen/einleitung-animationen.component';
+import { AnimationenBeispieleComponent } from './animationen/animationen-beispiele/animationen-beispiele.component';
+import { BilderBeispieleComponent } from './bilder/bilder-beispiele/bilder-beispiele.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +51,14 @@ import { ResponsiveImagesComponent } from './bilder/responsive-images/responsive
     MobileMenuComponent,
     EinleitungBilderComponent,
     ImgBgimgComponent,
-    ResponsiveImagesComponent
+    ResponsiveImagesComponent,
+    EinleitungLayoutComponent,
+    FlexboxComponent,
+    ResponsiveLayoutComponent,
+    FlatDesignComponent,
+    EinleitungAnimationenComponent,
+    AnimationenBeispieleComponent,
+    BilderBeispieleComponent
   ],
   imports: [
     BrowserModule,

@@ -4,13 +4,13 @@
 
 }
 .list-bausteine-li{
-  padding: 0 0 10px 0;
+  padding-top: 20px;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.6;
   letter-spacing: 2px;
   font-family: 'Lato', sans-serif;
-  color: #333;
+  color: rgb(187, 110, 28);
 }
 .text{
   font-size: 18px;

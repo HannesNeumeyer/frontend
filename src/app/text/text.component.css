@@ -5,12 +5,20 @@
   letter-spacing: 18px;
   font-weight: 500;
   font-family: 'Lato', sans-serif;
-  color: #444;
   text-transform: uppercase;
+  background-image: linear-gradient( to right,rgb(245, 147, 42), rgb(104, 57, 3));
+  -webkit-background-clip: text;
+  color: transparent;
 }
 @media (max-width: 600px){
   .heading{
     font-size: 60px;
-    padding: 40px 0 0 0;
+    padding: 55px 0 0 0;
+  }
+} 
+@media (max-width: 400px){
+  .heading{
+    font-size: 55px;
+    padding: 55px 0 0 0;
   }
 } 
