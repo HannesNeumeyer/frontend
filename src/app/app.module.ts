@@ -39,6 +39,8 @@ import { ColumnsComponent } from './bilder/bilder-beispiele/columns/columns.comp
 import { ProfilbilderComponent } from './bilder/bilder-beispiele/profilbilder/profilbilder.component';
 import { TransitionComponent } from './animationen/animationen-beispiele/transition/transition.component';
 import { TransitionOhneComponent } from './animationen/animationen-beispiele/transition-ohne/transition-ohne.component';
+import { SlideInComponent } from './animationen/animationen-beispiele/slide-in/slide-in.component';
+import { SchneeComponent } from './animationen/animationen-beispiele/schnee/schnee.component';
 
 @NgModule({
   declarations: [
@@ -72,7 +74,9 @@ import { TransitionOhneComponent } from './animationen/animationen-beispiele/tra
     ColumnsComponent,
     ProfilbilderComponent,
     TransitionComponent,
-    TransitionOhneComponent
+    TransitionOhneComponent,
+    SlideInComponent,
+    SchneeComponent
   ],
   imports: [
     BrowserModule,

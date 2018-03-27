@@ -1,0 +1,29 @@
+.slide{ 
+  text-align: center;
+}
+p{
+  color: #444;
+  font-weight: 500;
+  font-size: 27px;
+  padding: 40px 0 20px 0;
+  font-family: 'Lato', sans-serif;
+  animation: slide-through 4s infinite; 
+}
+@keyframes slide-through {
+  0% {
+      opacity: 0;
+      transform: translateX(-500px);
+  }
+  30% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+  70% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+  100%{
+      opacity: 0;
+      transform: translateX(500px);        
+  }
+}

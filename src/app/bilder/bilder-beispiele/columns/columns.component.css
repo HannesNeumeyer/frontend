@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding: 0 15%;
 } 
 .gallery-item{
   padding: 7px;
@@ -10,6 +11,16 @@
 .gallery-photo {
   height: 200px;
   display: block;
+}
+@media only screen and (max-width: 1510px){
+  .gallery{
+    padding: 0 8%;
+  }
+}
+@media only screen and (max-width: 1260px){
+  .gallery{
+    padding: 0
+  }
 }
 @media only screen and (max-width: 715px){
   .gallery-photo{
