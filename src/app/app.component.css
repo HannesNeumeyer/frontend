@@ -1,13 +1,13 @@
-.wrapper{
+.wrapping{
   margin: 0 20%;
 }
 @media (max-width: 1400px){
-  .wrapper{
+  .wrapping{
     margin: 0 15%
   }
 } 
 @media (max-width: 900px){
-  .wrapper{
+  .wrapping{
     margin: 0 7%
   }
 } 

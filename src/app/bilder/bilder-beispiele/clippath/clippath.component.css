@@ -1,0 +1,16 @@
+.clip {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: url(../../../../assets/hero.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+@media (max-width: 600px){
+  .clip{
+    width: 400px;
+    height: 240px;
+    background-image: url(../../../../assets/hero-small.jpg);
+  }
+}

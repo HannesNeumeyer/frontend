@@ -22,3 +22,16 @@
     padding: 55px 0 0 0;
   }
 } 
+.wrapping{
+  margin: 0 20%;
+}
+@media (max-width: 1400px){
+  .wrapping{
+    margin: 0 15%
+  }
+} 
+@media (max-width: 900px){
+  .wrapping{
+    margin: 0 7%
+  }
+} 

@@ -1,0 +1,23 @@
+.gradient {
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 245, 160, 0.6),
+      rgba(7, 102, 38, .6)),
+    url(../../../../assets/hero.jpg);
+  background-size: cover;
+  background-position: top;
+}
+@media (max-width: 600px){
+  .gradient{
+    width: 400px;
+    height: 240px;
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(126, 245, 160, 0.6),
+      rgba(7, 102, 38, .6)),
+    url(../../../../assets/hero-small.jpg);
+  }
+}

@@ -1,0 +1,12 @@
+.fullscreen {
+  height: 100vh;
+  background-image:url(../../../../assets/hero.jpg);
+  background-size: cover;
+  background-position: top;
+}
+@media (max-width: 600px){
+  .header{
+    height: 50vh;
+    background-image: url(../../../../assets/hero-small.jpg);
+  }
+}

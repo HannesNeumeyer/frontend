@@ -32,6 +32,9 @@ import { FlatDesignComponent } from './layout/flat-design/flat-design.component'
 import { EinleitungAnimationenComponent } from './animationen/einleitung-animationen/einleitung-animationen.component';
 import { AnimationenBeispieleComponent } from './animationen/animationen-beispiele/animationen-beispiele.component';
 import { BilderBeispieleComponent } from './bilder/bilder-beispiele/bilder-beispiele.component';
+import { GradientBgComponent } from './bilder/bilder-beispiele/gradient-bg/gradient-bg.component';
+import { FullBgComponent } from './bilder/bilder-beispiele/full-bg/full-bg.component';
+import { ClippathComponent } from './bilder/bilder-beispiele/clippath/clippath.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +61,10 @@ import { BilderBeispieleComponent } from './bilder/bilder-beispiele/bilder-beisp
     FlatDesignComponent,
     EinleitungAnimationenComponent,
     AnimationenBeispieleComponent,
-    BilderBeispieleComponent
+    BilderBeispieleComponent,
+    GradientBgComponent,
+    FullBgComponent,
+    ClippathComponent
   ],
   imports: [
     BrowserModule,
