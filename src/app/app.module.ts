@@ -35,6 +35,8 @@ import { BilderBeispieleComponent } from './bilder/bilder-beispiele/bilder-beisp
 import { GradientBgComponent } from './bilder/bilder-beispiele/gradient-bg/gradient-bg.component';
 import { FullBgComponent } from './bilder/bilder-beispiele/full-bg/full-bg.component';
 import { ClippathComponent } from './bilder/bilder-beispiele/clippath/clippath.component';
+import { ColumnsComponent } from './bilder/bilder-beispiele/columns/columns.component';
+import { ProfilbilderComponent } from './bilder/bilder-beispiele/profilbilder/profilbilder.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +66,9 @@ import { ClippathComponent } from './bilder/bilder-beispiele/clippath/clippath.c
     BilderBeispieleComponent,
     GradientBgComponent,
     FullBgComponent,
-    ClippathComponent
+    ClippathComponent,
+    ColumnsComponent,
+    ProfilbilderComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,25 @@
+.profil{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+} 
+.profil-item{
+  padding: 7px 30px;
+  flex: 1 0 33,33%;
+} 
+.profil-photo {
+  width: 200px;
+  height: 200px;
+  display: block;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 800px){
+  .profil-item{
+    padding: 10px;
+  }
+  .profil-photo{
+      height: 150px;
+      width: 150px;
+  }
+}
