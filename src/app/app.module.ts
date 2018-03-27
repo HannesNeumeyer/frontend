@@ -41,6 +41,10 @@ import { TransitionComponent } from './animationen/animationen-beispiele/transit
 import { TransitionOhneComponent } from './animationen/animationen-beispiele/transition-ohne/transition-ohne.component';
 import { SlideInComponent } from './animationen/animationen-beispiele/slide-in/slide-in.component';
 import { SchneeComponent } from './animationen/animationen-beispiele/schnee/schnee.component';
+import { EinleitungJavascriptComponent } from './javascript/einleitung-javascript/einleitung-javascript.component';
+import { DomComponent } from './javascript/dom/dom.component';
+import { LocalstorageComponent } from './javascript/localstorage/localstorage.component';
+import { ApiComponent } from './javascript/api/api.component';
 
 @NgModule({
   declarations: [
@@ -76,7 +80,11 @@ import { SchneeComponent } from './animationen/animationen-beispiele/schnee/schn
     TransitionComponent,
     TransitionOhneComponent,
     SlideInComponent,
-    SchneeComponent
+    SchneeComponent,
+    EinleitungJavascriptComponent,
+    DomComponent,
+    LocalstorageComponent,
+    ApiComponent
   ],
   imports: [
     BrowserModule,

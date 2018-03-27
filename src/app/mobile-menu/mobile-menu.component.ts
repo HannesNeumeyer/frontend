@@ -38,6 +38,6 @@ export class MobileMenuComponent implements OnInit {
   }
   onClick6(){
     (<HTMLInputElement>document.getElementById("toggle")).checked = false;    
-    this.router.navigate(['/webentwicklung']).then(() => { window.scrollTo(0, 0) });
+    this.router.navigate(['/entwicklung']).then(() => { window.scrollTo(0, 0) });
   }
 }

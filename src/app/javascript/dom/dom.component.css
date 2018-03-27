@@ -1,0 +1,30 @@
+.einleitung{
+  padding: 35px 0 10px 0;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient( to right,rgb(245, 147, 42), rgb(104, 57, 3));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+.infotext{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  word-spacing: 3px;
+  padding: 10px 0;
+}
+@media (max-width: 1200px){
+  .einleitung{
+    font-size: 23px;
+  }
+  .infotext{
+    font-size: 17px;
+  }
+}
