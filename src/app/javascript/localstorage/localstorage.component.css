@@ -20,11 +20,25 @@
   word-spacing: 3px;
   padding: 10px 0;
 }
+.wrap{
+  display: flex;  
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  padding: 20px;
+  font-size: 21px;
+  font-family: 'Lato', sans-serif;
+  color: rgb(187, 110, 28);
+}
 @media (max-width: 1200px){
   .einleitung{
     font-size: 23px;
   }
   .infotext{
     font-size: 17px;
+  }
+  a {
+    font-size: 19px;
   }
 }

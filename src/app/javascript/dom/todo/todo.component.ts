@@ -12,15 +12,24 @@ export class TodoComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    if(localStorage.getItem('items') === null){
+        this.items = [];
+      } else {
+        this.items = JSON.parse(localStorage.getItem('items'));
+      }
+      return this.items;
   }
 
   add(task){
     this.items.push(task);
     this.task.nativeElement.value = '';
-    console.log(this.task);
+    localStorage.setItem('items', JSON.stringify(this.items));
   }
 
   delete(task){
     this.items.splice(task, 1);
+
+    localStorage.setItem('items', JSON.stringify(this.items));
   }
+
 }
