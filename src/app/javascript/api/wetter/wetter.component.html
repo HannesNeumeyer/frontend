@@ -1,0 +1,17 @@
+<div class="wrap">
+  <h2 class="heading">Wetter App</h2>
+  <h3 class="heading2">{{city}} - {{state}}</h3>
+  <h3 class="heading3">{{wdesc}}</h3>
+  <h3 class="heading3">{{wstring}}</h3>
+  <img class="weatherIcon" src={{wicon}}>
+  <form class="wrap2" #f="ngForm" (ngSubmit)="onChange(f)">
+      <input class="input" type="text" placeholder="City" [(ngModel)]="city" name="city">
+      <button class="button">
+        <svg class="icon">
+          <use xlink:href="../../../../assets/sprite.svg#icon-spinner11"></use>
+        </svg>
+      </button>
+      <input class="input" type="text" placeholder="State" [(ngModel)]="state" name="state">
+  </form>
+  <p *ngIf="noMatch" class="alert">Can't find city or state</p>
+</div>

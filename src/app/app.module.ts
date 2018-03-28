@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -46,6 +47,7 @@ import { DomComponent } from './javascript/dom/dom.component';
 import { LocalstorageComponent } from './javascript/localstorage/localstorage.component';
 import { ApiComponent } from './javascript/api/api.component';
 import { TodoComponent } from './javascript/dom/todo/todo.component';
+import { WetterComponent } from './javascript/api/wetter/wetter.component';
 
 @NgModule({
   declarations: [
@@ -86,10 +88,12 @@ import { TodoComponent } from './javascript/dom/todo/todo.component';
     DomComponent,
     LocalstorageComponent,
     ApiComponent,
-    TodoComponent
+    TodoComponent,
+    WetterComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AppRoutingModule,
     ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
