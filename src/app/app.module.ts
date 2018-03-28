@@ -45,6 +45,7 @@ import { EinleitungJavascriptComponent } from './javascript/einleitung-javascrip
 import { DomComponent } from './javascript/dom/dom.component';
 import { LocalstorageComponent } from './javascript/localstorage/localstorage.component';
 import { ApiComponent } from './javascript/api/api.component';
+import { TodoComponent } from './javascript/dom/todo/todo.component';
 
 @NgModule({
   declarations: [
@@ -84,7 +85,8 @@ import { ApiComponent } from './javascript/api/api.component';
     EinleitungJavascriptComponent,
     DomComponent,
     LocalstorageComponent,
-    ApiComponent
+    ApiComponent,
+    TodoComponent
   ],
   imports: [
     BrowserModule,

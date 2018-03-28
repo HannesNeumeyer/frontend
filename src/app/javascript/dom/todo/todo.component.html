@@ -1,0 +1,19 @@
+<div class="wrap">
+  <h2 class="heading">TODO Liste</h2>
+  <div class="wrap2">
+  <input class="task" type="text" placeholder="Neue Aufgabe" #task>
+  <button class="add" (click)="add(task.value)">
+    <svg class="icon">
+      <use xlink:href="../../../../assets/sprite.svg#icon-plus"></use>
+    </svg>
+  </button>
+
+  </div>
+  <h3 class="head2">Todo's:</h3>
+  <ul class="list">
+    <div class="wrap2" *ngFor="let item of items; let i = index">
+      <li class="list-item">{{item}}</li>
+      <button class="delete" (click)="delete(i)">x</button>
+    </div>
+  </ul>
+</div>

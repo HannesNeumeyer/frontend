@@ -1,0 +1,130 @@
+.wrap{
+  margin: 20px 200px;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+.heading{
+  padding: 25px 0 10px 0;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-family: 'Lato', sans-serif;
+  background-image: linear-gradient( to right,rgb(245, 147, 42), rgb(104, 57, 3));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+}
+.wrap2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task{
+  padding: 10px;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid rgb(104, 57, 3);
+  margin: 15px 25px;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+}
+.task:focus{
+  outline: none;
+}
+.add{
+  width: 48px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color:rgb(104, 57, 3);
+}
+.add:focus{
+  outline: none;
+}
+.icon{
+  height: 25px;
+  width: 25px;
+  fill: #fff;
+}
+.head2{
+  font-size: 23px;
+  font-family: 'Lato', sans-serif;
+  color: #444;
+  padding: 15px 0 0 32px;
+}
+.list{
+  padding-left: 50px;
+}
+.list-item{
+  margin: 10px 5px 12px 40px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(104, 57, 3);
+  flex: 1;
+}
+.delete{
+  width: 40px;
+  height: 40px;
+  margin-right: 60px;
+  font-size: 20px;
+  color: firebrick;
+  font-family: 'Lato', sans-serif;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color:#fff;
+}
+@media (max-width: 1600px){
+  .wrap{
+    margin: 20px 100px;
+  }
+}
+@media (max-width: 1150px){
+  .wrap{
+    margin: 20px 50px;
+  }
+}
+@media (max-width: 950px){
+  .wrap{
+    margin: 20px 20px;
+  }
+  .task{
+    width: 250px;
+  }
+}
+@media (max-width: 650px){
+  .wrap{
+    margin: 20px 10px;
+  }
+  .head2{
+    padding: 15px 0 0 15px;
+  }
+  .list{
+    padding-left: 20px;
+  }
+  .delete{
+    margin-right: 10px;
+  }
+}
+@media (max-width: 500px){
+  .task{
+    width: 180px;
+    margin: 15px 10px;
+  }
+  .add{
+    width: 35px;
+    height: 35px;
+  }
+  .icon{
+    width: 15px;
+    height: 15px;
+  }
+}
