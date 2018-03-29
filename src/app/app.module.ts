@@ -49,6 +49,9 @@ import { ApiComponent } from './javascript/api/api.component';
 import { TodoComponent } from './javascript/dom/todo/todo.component';
 import { WetterComponent } from './javascript/api/wetter/wetter.component';
 import { EntwEinleitungComponent } from './webentwicklung/entw-einleitung/entw-einleitung.component';
+import { GitComponent } from './webentwicklung/git/git.component';
+import { SeoComponent } from './webentwicklung/seo/seo.component';
+import { DatenschutzComponent } from './webentwicklung/datenschutz/datenschutz.component';
 
 @NgModule({
   declarations: [
@@ -91,7 +94,10 @@ import { EntwEinleitungComponent } from './webentwicklung/entw-einleitung/entw-e
     ApiComponent,
     TodoComponent,
     WetterComponent,
-    EntwEinleitungComponent
+    EntwEinleitungComponent,
+    GitComponent,
+    SeoComponent,
+    DatenschutzComponent
   ],
   imports: [
     BrowserModule,
