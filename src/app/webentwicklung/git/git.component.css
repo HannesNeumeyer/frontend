@@ -20,11 +20,29 @@
   word-spacing: 3px;
   padding: 10px 0;
 }
+ul{
+  padding-left: 50px;
+}
+li{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
 @media (max-width: 1200px){
   .einleitung{
     font-size: 23px;
   }
   .infotext{
+    font-size: 17px;
+  }
+} 
+@media (max-width: 500px){
+  ul{
+    padding-left: 30px;
+  }
+  li{
     font-size: 17px;
   }
 } 
