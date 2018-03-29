@@ -7,7 +7,7 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./wetter.component.css']
 })
 export class WetterComponent implements OnInit {
-  city = 'Munich';
+  city = 'Pflaumloch';
   state = 'Germany';
   wdesc;
   wstring;
@@ -22,7 +22,7 @@ export class WetterComponent implements OnInit {
   }
 
   async getWeather(){
-      const weatherData = await fetch(`http://api.wunderground.com/api/${this.apiKey}/conditions/q/${this.state}/${this.city}.json`)
+      const weatherData = await fetch(`https://api.wunderground.com/api/${this.apiKey}/conditions/q/${this.state}/${this.city}.json`)
       const weather = await weatherData.json();
       return weather.current_observation;
   }
@@ -31,8 +31,9 @@ export class WetterComponent implements OnInit {
     const weather = await this.getWeather();
     this.wstring = weather.feelslike_string;
     this.wdesc = weather.weather;
-    this.wicon = weather.icon_url
-    console.log(weather);
+    let icon = ''+ weather.icon_url;
+    var newstr = icon.replace(/http/i, 'https');
+    this.wicon = newstr;
   }
 
   async onChange(form: NgForm){
@@ -46,7 +47,7 @@ export class WetterComponent implements OnInit {
       setTimeout(() => {
         this.noMatch = false;
       }, 4000);
-      this.city = 'Munich';
+      this.city = 'Pflaumloch';
       this.state = 'Germany';
     }
   }

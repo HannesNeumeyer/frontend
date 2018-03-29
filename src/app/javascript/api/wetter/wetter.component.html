@@ -4,7 +4,7 @@
   <h3 class="heading3">{{wdesc}}</h3>
   <h3 class="heading3">{{wstring}}</h3>
   <img class="weatherIcon" src={{wicon}}>
-  <form class="wrap2" #f="ngForm" (ngSubmit)="onChange(f)">
+  <form class="wrap2" #f="ngForm" (ngSubmit)="onChange(f)" autocomplete="off">
       <input class="input" type="text" placeholder="City" [(ngModel)]="city" name="city">
       <button class="button">
         <svg class="icon">

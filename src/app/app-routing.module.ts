@@ -15,7 +15,7 @@ const routes: Routes = [
   {path: 'layout', component: LayoutComponent},
   {path: 'animationen', component: AnimationenComponent},
   {path: 'javascript', component: JavascriptComponent},
-  {path: 'webentwicklung', component: WebentwicklungComponent},
+  {path: 'entwicklung', component: WebentwicklungComponent},
 ];
 
 @NgModule({

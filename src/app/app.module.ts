@@ -48,6 +48,7 @@ import { LocalstorageComponent } from './javascript/localstorage/localstorage.co
 import { ApiComponent } from './javascript/api/api.component';
 import { TodoComponent } from './javascript/dom/todo/todo.component';
 import { WetterComponent } from './javascript/api/wetter/wetter.component';
+import { EntwEinleitungComponent } from './webentwicklung/entw-einleitung/entw-einleitung.component';
 
 @NgModule({
   declarations: [
@@ -89,7 +90,8 @@ import { WetterComponent } from './javascript/api/wetter/wetter.component';
     LocalstorageComponent,
     ApiComponent,
     TodoComponent,
-    WetterComponent
+    WetterComponent,
+    EntwEinleitungComponent
   ],
   imports: [
     BrowserModule,
