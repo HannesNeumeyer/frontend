@@ -7,6 +7,7 @@ import { JavascriptComponent } from './javascript/javascript.component';
 import { WebentwicklungComponent } from './webentwicklung/webentwicklung.component';
 import { TextComponent } from './text/text.component';
 import { LandingComponent } from './landing/landing.component';
+import { DatenschutzComponent } from './footer/datenschutz/datenschutz.component';
 
 const routes: Routes = [
   {path:'', component: LandingComponent},
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path: 'animationen', component: AnimationenComponent},
   {path: 'javascript', component: JavascriptComponent},
   {path: 'entwicklung', component: WebentwicklungComponent},
+  {path: 'datenschutz', component: DatenschutzComponent}
 ];
 
 @NgModule({

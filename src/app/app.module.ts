@@ -51,7 +51,7 @@ import { WetterComponent } from './javascript/api/wetter/wetter.component';
 import { EntwEinleitungComponent } from './webentwicklung/entw-einleitung/entw-einleitung.component';
 import { GitComponent } from './webentwicklung/git/git.component';
 import { SeoComponent } from './webentwicklung/seo/seo.component';
-import { DatenschutzComponent } from './webentwicklung/datenschutz/datenschutz.component';
+import { DatenschutzComponent } from './footer/datenschutz/datenschutz.component';
 
 @NgModule({
   declarations: [

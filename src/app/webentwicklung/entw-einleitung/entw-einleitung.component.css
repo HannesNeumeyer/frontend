@@ -29,4 +29,7 @@
     font-size: 18px;
     margin: 20px 0;
   }
+  .infotext{
+    display: none;
+  }
 } 

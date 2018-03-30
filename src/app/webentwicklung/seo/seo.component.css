@@ -20,11 +20,49 @@
   word-spacing: 3px;
   padding: 10px 0;
 }
+.infotext2{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  padding: 10px 15px 10px 0;
+}
+.wrap{
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+li{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  padding-bottom: 7px;
+}
 @media (max-width: 1200px){
   .einleitung{
     font-size: 23px;
   }
   .infotext{
+    font-size: 17px;
+  }
+  .infotext2{
+    font-size: 19px;
+  }
+  .wrap{
+    flex-wrap: wrap;
+  }
+} 
+@media (max-width: 500px){
+  ul{
+    padding-left: 30px;
+  }
+  li{
     font-size: 17px;
   }
 } 
